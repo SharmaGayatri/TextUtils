@@ -79,7 +79,7 @@ const handle_1stChar_Click = () => {
         <div className="container"style={{color:props.mode==='dark'?'white':'black'}}>
           <h2> Your Text Summary</h2>
           <p>{Text === " " ? '0': Text.trim().split(/\s+/).length}words and {Text.length}characters </p>
-          <p>{ 0.08* Text.split("").length}Minutes to read</p>
+          <p>{ 0.08* Text.split(" ").length}Minutes to read</p>
          
           <h2>Preview Here</h2>
           <p>{Text.length>0?Text:"Enter something in the above textbox to preview here"}</p>
