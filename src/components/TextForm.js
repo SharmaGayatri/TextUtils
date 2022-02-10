@@ -65,12 +65,12 @@ const handle_1stChar_Click = () => {
  <input type="file" className="btn btn-primary my-1" accept="text/plain" onChange = {readTxt}/>
  </div>
  </div>
-        <button className="btn btn-primary mx-1" onClick={handleUpClick}>Convert to uppercase</button>
-        <button className="btn btn-primary mx-1" onClick={handleLpClick}>Convert to LowerCase</button>
-        <button className="btn btn-primary mx-1" onClick={handleClrClick}>Clear </button>
-        <button className="btn btn-primary mx-1" onClick={handleTextToSpeech}>Speech</button>
-        <button className="btn btn-primary mx-1" onClick={handleCopy}>Copy text</button>
-        <button className="btn btn-primary mx-1" onClick={ handle_1stChar_Click}>Capitalize word after full stop</button>
+        <button className="btn btn-primary mx-1 my-1" onClick={handleUpClick}>Convert to uppercase</button>
+        <button className="btn btn-primary mx-1 my-1" onClick={handleLpClick}>Convert to LowerCase</button>
+     <button className="btn btn-primary mx-1 my-1" onClick={handleTextToSpeech}>Speech</button>
+        <button className="btn btn-primary mx-1 my-1" onClick={handleCopy}>Copy text</button>
+        <button className="btn btn-primary mx-1 my-1" onClick={ handle_1stChar_Click}>Capitalize word after full stop</button>
+ <button className="btn btn-primary mx-1 my-1" onClick={handleClrClick}>Clear </button>
         {/* <button className="btn btn-primary mx-1" onClick={binclick}>binary</button> */}
         <div>
 {/* <textarea className="form-control" id="exampleFormControlTextarea1" rows="8"  value ={Text} onChange={handleOnChange} onMouseEnter={changeCase}></textarea> */}
